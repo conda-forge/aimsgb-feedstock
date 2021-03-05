@@ -13,7 +13,7 @@ source:
     - pymatgen.patch
 
 build:
-  number: 2
+  number: 1
   noarch: python
   entry_points:
     - aimsgb = aimsgb.agb:main
@@ -22,11 +22,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools >=18.0
   run:
     - pymatgen
-    - python
+    - python >=3.6
 
 test:
   imports:
