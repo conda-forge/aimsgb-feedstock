@@ -1,5 +1,5 @@
 {% set name = "aimsgb" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 
 package:
@@ -8,12 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aimsgb-{{ version }}.tar.gz
-  sha256: debd2966e3cb2cce073a139328ad3a576e2440ff7bc925482ed7e3e13ed28d20
-  patches:
-    - pymatgen.patch
+  sha256: b53880bbbecfe229e95acb331de7d39905db9f37e8e8d483a610789bb59fd13a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - aimsgb = aimsgb.agb:main
