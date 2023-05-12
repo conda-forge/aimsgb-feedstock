@@ -1,5 +1,5 @@
 {% set name = "aimsgb" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aimsgb-{{ version }}.tar.gz
-  sha256: b53880bbbecfe229e95acb331de7d39905db9f37e8e8d483a610789bb59fd13a
+  sha256: 721d42510ed8348d2a8432131a3f58779407f8d6418b8f16ebb24c199cffc018
 
 build:
   number: 0
@@ -40,7 +40,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: COPYRIGHT.rst
-  summary: 'Ab-initio Interface Materials Simulation Project for Grain Boundaries (AIMSGB)'
+  summary: Ab-initio Interface Materials Simulation Project for Grain Boundaries (AIMSGB)
   description: |
     aimsgb, an efficient and open-source Python library for generating
     atomic coordinates in periodic grain boundary models. It is designed
