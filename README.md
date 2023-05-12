@@ -1,11 +1,11 @@
-About aimsgb
-============
+About aimsgb-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aimsgb-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ksyang2013/aimsgb
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aimsgb-feedstock/blob/main/LICENSE.txt)
 
 Summary: Ab-initio Interface Materials Simulation Project for Grain Boundaries (AIMSGB)
 
