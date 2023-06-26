@@ -24,6 +24,7 @@ requirements:
     - setuptools >=18.0
   run:
     - pymatgen
+    - pytest
     - python >=3.6
 
 test:
