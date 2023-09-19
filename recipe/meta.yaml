@@ -1,5 +1,5 @@
 {% set name = "aimsgb" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aimsgb-{{ version }}.tar.gz
-  sha256: 586b92a70fe6364028bab11c32382b9b3cb339ed41b422c6e942e5eb554686bd
+  sha256: 4b24b678f7e63417e2b2f4b52cd765163e93af1d871c6d4b0f9a66558a8b7e5a
 
 build:
   number: 0
