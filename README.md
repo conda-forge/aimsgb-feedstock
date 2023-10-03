@@ -3,27 +3,11 @@ About aimsgb-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aimsgb-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/ksyang2013/aimsgb
+Home: http://aimsgb.org
 
-Package license: MIT
+Package license: BSD-4-Clause
 
-Summary: Ab-initio Interface Materials Simulation Project for Grain Boundaries (AIMSGB)
-
-Development: https://github.com/ksyang2013/aimsgb
-
-Documentation: https://github.com/ksyang2013/aimsgb
-
-aimsgb, an efficient and open-source Python library for generating
-atomic coordinates in periodic grain boundary models. It is designed
-to construct various grain boundary structures from cubic and
-non-cubic initial configurations. A convenient command line tool has
-also been provided to enable easy and fast construction of tilt and
-twist boundaries by assigining the degree of fit (Σ), rotation axis,
-grain boundary plane and initial crystal structure. aimsgb is expected
-to greatly accelerate the theoretical investigation of grain boundary
-properties and facilitate the experimental analysis of grain boundary
-structures as well.
-
+Summary: aimsgb is a python library for generatng the atomic coordinates of periodic grain boundaries.Copyright © 2018 The Regents of the University of California.All Rights Reserved. See more in Copyright.
 
 Current build status
 ====================
