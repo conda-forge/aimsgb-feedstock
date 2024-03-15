@@ -1,5 +1,5 @@
 {% set name = "aimsgb" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aimsgb-{{ version }}.tar.gz
-  sha256: 4b24b678f7e63417e2b2f4b52cd765163e93af1d871c6d4b0f9a66558a8b7e5a
+  sha256: 4fc39da404a988d0e2fa34e0222570279a9607fe85b16ede2012c215bcc4c075
 
 build:
   entry_points:
     - aimsgb = aimsgb.agb:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
