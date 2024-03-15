@@ -43,7 +43,6 @@ about:
   license: BSD-4-Clause
   license_file:
     - COPYRIGHT.rst
-    - LICENSE.txt
 
 extra:
   recipe-maintainers:
