@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aimsgb-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aimsgb-{{ version }}.tar.gz
   sha256: 4fc39da404a988d0e2fa34e0222570279a9607fe85b16ede2012c215bcc4c075
 
 build:
@@ -14,15 +14,15 @@ build:
     - aimsgb = aimsgb.agb:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools >=18.0
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - pymatgen
     - mp-api
     - numpy
@@ -36,6 +36,7 @@ test:
     - aimsgb --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: http://aimsgb.org
